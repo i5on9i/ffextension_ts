@@ -1,0 +1,22 @@
+{
+  "name": "firefox_extension_template_ts",
+  "version": "0.9.0",
+  "description": "This is boilerplate for the Firefox-extension with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5on9i/ffextension_ts.git"
+  },
+  "keywords": [
+    "firefox",
+    "extension"
+  ],
+  "author": "namh",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.7.1"
+  }
+}

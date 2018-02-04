@@ -1,0 +1,22 @@
+{
+  "description": "My description",
+  "manifest_version": 2,
+  "name": "FFSample",
+  "version": "0.9",
+  "homepage_url": "https://ffsample.com",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["sample.js"]
+    },
+    {
+      "matches" : ["*://accounts.google.com/signin/v2/*"],
+      "js": ["sample.js"]
+    }
+  ]
+
+}
